@@ -6,7 +6,7 @@ There are two ways to start your boilerplate:
 * [Download the zip](https://github.com/Julian-Hulsdouw/pacos/archive/master.zip)
 * Clone the repo: `git clone --depth=1 https://github.com/Julian-Hulsdouw/pacos.git`
 
-##Import sass components
+### Import sass components
 To import sass files simply user the import function
 
 `@import "pacos/sass/reset"`
