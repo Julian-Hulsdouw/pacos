@@ -1,7 +1,7 @@
 {
   "name": "pacos",
   "version": "0.0.1",
-  "description": "Small modular boilerplate assets",
+  "description": "Pacos is a simple boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
