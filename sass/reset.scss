@@ -1,0 +1,24 @@
+html { box-sizing: border-box; }
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td { background: transparent; border: 0; font-family: inherit; font-size: 100%; margin: 0; outline: 0; padding: 0; text-align: left; vertical-align: baseline; }
+body { font-size: 100%; line-height: 1; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; word-wrap: break-word; }
+body, button, datalist, input, select, textarea { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+table { border-collapse: separate; border-spacing: 0; width: 100%; }
+caption, th, td { font-weight: normal; text-align: left; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+blockquote, q { quotes: none; }
+em, i { font-style: italic; }
+audio, canvas, video { display: inline-block; }
+audio:not([controls]) { display: none; height: 0; }
+img, textarea, svg { display: block; }
+img, video { max-width: 100%; height: auto; }
+ol, ul { list-style-position: outside; list-style-type: decimal; padding-left: 1.3em; }
+ul { list-style-type: disc; }
+textarea { margin: 0; overflow: auto; -moz-resize: vertical; resize: vertical; }
+button, datalist, input, textarea { background: transparent; border: none; font-size: inherit; padding: 0; margin: 0; }
+button, input[type=submit], input[type=checkbox], input[type=radio], label, a { cursor: pointer; }
+input[type=email], input[type=text], input[type=submit], input[type=search], input[type=password], textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
+strong { font-weight: bold; }
+*, *:before, *:after { box-sizing: inherit; }
+.touchevents body { -webkit-overflow-scrolling: touch; }
+:focus, :active { -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; outline: 0; }
