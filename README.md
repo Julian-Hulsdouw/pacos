@@ -2,12 +2,26 @@
 Pacos is a simple boilerplate, with sass modules
 
 ## NPM
-`npm install pacos`
+`npm install pacos --save-dev`
 
 ### Import components
 To import sass files simply use the import function
 
 `@import '~pacos/sass/reset'`
+
+Sass components that are included:
+* helpers
+* reset
+
+### Framework
+We use bulma as our front-end framework. Just import what you need.  Check their [documentation](http://bulma.io/documentation/overview/modular/) how to load modules.
+
+For example if you only want to load the bulma grid:
+```
+@import
+	'~bulma/sass/utilities/_all',
+	'~bulma/sass/grid/columns';
+```
 
 ## Getting started
 There are two ways to start your boilerplate:

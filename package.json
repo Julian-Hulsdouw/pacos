@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Julian-Hulsdouw/pacos/issues"
   },
-  "homepage": "https://github.com/Julian-Hulsdouw/pacos#readme"
+  "homepage": "https://github.com/Julian-Hulsdouw/pacos#readme",
+  "devDependencies": {
+    "bulma": "^0.4.1"
+  }
 }
