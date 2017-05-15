@@ -1,3 +1,6 @@
+[![npm](https://img.shields.io/npm/v/pacos.svg)](https://www.npmjs.com/package/pacos)
+[![npm](https://img.shields.io/david/expressjs/express.svg)](https://www.npmjs.com/package/bulma)
+
 # Pacos
 Pacos is a simple boilerplate, with sass modules
 
