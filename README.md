@@ -5,7 +5,7 @@ Pacos is a simple boilerplate, with sass modules
 `npm install pacos --save-dev`
 
 ### Import components
-To import sass files simply use the import function
+To import sass files simply use the import function:
 
 `@import '~pacos/sass/reset'`
 
