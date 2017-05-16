@@ -13,4 +13,4 @@
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 .accessible { position: absolute; top: -9999em; left: -9999em; }
-.disable { pointer-events: none; @include opacity(.5); }
+.disable { pointer-events: none; opacity: .5; }
