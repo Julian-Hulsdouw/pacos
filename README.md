@@ -2,19 +2,27 @@
 [![npm](https://img.shields.io/david/expressjs/express.svg)](https://www.npmjs.com/package/bulma)
 
 # Pacos
-Pacos is a simple boilerplate, with sass modules
+Pacos is a simple boilerplate, with scss modules
 
-## NPM
+## Usage
 `npm install pacos --save-dev`
 
 ### Import components
-To import sass files simply use the import function:
+To import all base scss files simply use the import function:
 
-`@import '~pacos/sass/reset'`
+`@import '~pacos/scss/base/all'`
 
-Sass components that are included:
-* helpers
-* reset
+Components that are included:
+- HTML
+    * browser
+- SCSS
+    * breakpoints
+    * browser
+    * grid *
+    * helpers
+    * reset
+
+_* dependent on bulma_
 
 ### Framework
 We use bulma as our front-end framework. Just import what you need.  Check their [documentation](http://bulma.io/documentation/overview/modular/) how to load modules.
@@ -26,10 +34,12 @@ For example if you only want to load the bulma grid:
 	'~bulma/sass/grid/columns';
 ```
 
-## Getting started
-There are two ways to start your boilerplate:
-* [Download the zip](https://github.com/Julian-Hulsdouw/pacos/archive/master.zip)
+### Guidelines
+We follow the scss/css guidlines from Airbnb. Read their [documentation](https://github.com/airbnb/css) for the guidlines.
+
+## Create your own
 * Clone the repo: `git clone https://github.com/Julian-Hulsdouw/pacos.git`
+* [Download the latest release](https://github.com/Julian-Hulsdouw/pacos/archive/master.zip)
 
 ## Browser support
 * Chrome latest

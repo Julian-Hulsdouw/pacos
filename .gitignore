@@ -1,1 +1,6 @@
+# Directories
 node_modules
+build
+
+# Files
+index.html

@@ -1,0 +1,226 @@
+html {
+    box-sizing: border-box;
+}
+
+a,
+abbr,
+address,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul,
+var {
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: baseline;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    word-wrap: break-word;
+}
+
+body,
+button,
+datalist,
+input,
+select,
+textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+caption,
+td,
+th {
+    font-weight: normal;
+    text-align: left;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+img,
+svg,
+textarea {
+    display: block;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+ol,
+ul {
+    list-style-position: outside;
+    list-style-type: decimal;
+    padding-left: 1.3em;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+textarea {
+    margin: 0;
+    overflow: auto;
+    -moz-resize: vertical;
+    resize: vertical;
+}
+
+button,
+datalist,
+input,
+textarea {
+    background: transparent;
+    border: none;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button,
+input[type=checkbox],
+input[type=radio],
+input[type=submit],
+label {
+    cursor: pointer;
+}
+
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=submit],
+input[type=text],
+textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+.touchevents body {
+    -webkit-overflow-scrolling: touch;
+}
+
+:active,
+:focus {
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    outline: 0;
+}
