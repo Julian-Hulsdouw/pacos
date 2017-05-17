@@ -3,4 +3,4 @@ node_modules
 build
 
 # Files
-index.html
+/index.html
