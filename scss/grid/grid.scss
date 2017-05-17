@@ -1,10 +1,25 @@
-$column-gutter: 20px;
+$column-gutter: 20px !default;
 
-.columns { margin-left: -$column-gutter; margin-right: -$column-gutter; margin-top: -$column-gutter; }
-.columns:not(:last-child):last-of-type { margin-bottom: 0; }
-.columns:not(.is-desktop)
-{
-    & { align-items: center; }
+.columns {
+    margin-left: -$column-gutter;
+    margin-right: -$column-gutter;
+    margin-top: -$column-gutter;
 }
 
-.column { padding: $column-gutter; }
+.columns:not(.is-desktop) {
+    & {
+        align-items: center;
+    }
+}
+
+.column {
+    padding: $column-gutter;
+}
+
+.columns:last-child {
+    margin-bottom: -$column-gutter;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: $column-gutter;
+}

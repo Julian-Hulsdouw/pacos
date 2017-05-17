@@ -24,6 +24,10 @@ Components that are included:
 
 _* dependent on bulma_
 
+#### Variables available
+* $column-gutter
+
+
 ### Framework
 We use bulma as our front-end framework. Just import what you need.  Check their [documentation](http://bulma.io/documentation/overview/modular/) how to load modules.
 
