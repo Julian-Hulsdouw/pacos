@@ -6,12 +6,6 @@ $column-gutter: 20px !default;
     margin-top: -$column-gutter;
 }
 
-.columns:not(.is-desktop) {
-    & {
-        align-items: center;
-    }
-}
-
 .column {
     padding: $column-gutter;
 }
