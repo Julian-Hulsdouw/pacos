@@ -1,6 +1,6 @@
 {
   "name": "pacos",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Pacos is a simple boilerplate",
   "main": "index.js",
   "scripts": {
